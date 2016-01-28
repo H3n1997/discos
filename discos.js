@@ -15,4 +15,6 @@ function compra()
 	// alert(total);
 	var precio=$(this).parent().children().first().next().next().next().text());
 	precio=parseInt(precio);
+	precio+=precio;
+	$('div').append(precio);
 }
